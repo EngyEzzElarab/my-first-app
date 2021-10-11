@@ -1,0 +1,6 @@
+<h5>The Server Component</h5>
+<p 
+    [ngStyle]="{backgroundColor: getColor()}"
+    [ngClass]="{online: serverStatus === 'online'}">
+    {{ 'Server' }} with ID {{ serverId }} is {{ getStatus() }}
+</p>
